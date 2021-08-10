@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+main nav{
+    background-color: green;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main nav .logo{
+    background-color: azure;
+    padding: 10px 23px;
+    font-size: 1.4rem;
+    text-decoration-line: none;
+    color: black;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 3px;
+}
+ul li a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration-line: none;
+}
+li a:active{
+    color: darkgreen;
+}
+li a:hover{
+    border-bottom: 2px solid white;
+    /* border-left: 2px solid white;
+    border-right: 2px solid white; */
+}
+section div {
+    height: 45vh;
+    width: 40vw;
+    padding: 12px;
+    border: 1.4px solid gray;
+    background-color: darkkhaki;
+}
+.circle a{
+    height: 8vh;
+    width: 8vh;
+    background-color: green;
+     border-radius: 50%;
+     position: fixed;
+     margin-top: 15vh;
+     z-index: 4;
+     cursor: pointer;
+}
+footer{
+    position: relative;
+    top:25vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(24, 23, 23);
+    align-items: center;
+}
+footer div:nth-child(2) a{
+    text-decoration-line: none;
+    font-size: 1.2rem;
+}
